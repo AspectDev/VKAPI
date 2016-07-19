@@ -248,7 +248,7 @@ class APIVK{
 
 
 
-$token = "08127e68b9e3433d70f1bfc634def157f577a4effa5dc0a473eec4012a10496d66181f02a78092f7064b0";
+$token = "";
 $api = new APIVK;
 $api->setToken($token);
 $status = $api->GetIdByScreenName("php_ini");
